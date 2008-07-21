@@ -1,0 +1,18 @@
+Build.PL
+Changes
+demo.pl
+lib/Perl6/Str.pm
+lib/Perl6/Str/Test.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/01-pod.t
+t/case.t
+t/compare.t
+t/isa.t
+t/lengths.t
+t/reverse.t
+t/sameaccent.t
+t/samecase.t
+t/substr.t
