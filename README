@@ -36,12 +36,12 @@ DESCRIPTION
     grapheme level. It also introduces builtin string methods found in Perl
     6 such as "samecase".
 
-    "Perl6::Str" is written in pure perl 5.
+    "Perl6::Str" is written in pure Perl 5.
 
 CAVEATS
     "Perl6::Str" is implemented in terms of a blessed reference to the
     underlying perl 5 string, and all operations are either overloaded
-    operators or method calls. That means that the objects loose all their
+    operators or method calls. That means that the objects lose all their
     magic once they are interpolated into ordinary strings, and that all
     overloaded operations come with a speed penalty.
 
@@ -114,8 +114,9 @@ METHODS
       returns a reversed copy of the string.
 
 COPYRIGHT AND LICENSE
-    Copyright (C) 2008 by Moritz A. Lenz. This module is free software. You
-    may use, redistribute and modify it under the same terms as perl itself.
+    Copyright (C) 2008, 2011 by Moritz A. Lenz. This module is free
+    software. You may use, redistribute and modify it under the same terms
+    as perl itself.
 
     Example code included in this package may be used as if it were Public
     Domain.
@@ -125,7 +126,9 @@ AUTHOR
     <http://perl-6.de/>
 
 DEVELOPMENT
-    You can obtain the latest development version via subversion:
+    You can obtain the latest development version via git:
 
-        svn co https://faui2k3.org/svn/moritz/cpan/Perl6-Str/
+        git clone git://github.com/moritz/Perl6-Str.git
+
+    See also: <https://github.com/moritz/Perl6-Str>.
 

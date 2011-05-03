@@ -6,7 +6,7 @@ package Perl6::Str;
 
 use strict;
 use warnings;
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 use Encode qw(encode_utf8);
 use Unicode::Normalize qw();
 
@@ -262,13 +262,13 @@ an API similar to that of Perl 6 (as far as possible), and emulating common
 operations such as C<substr>, C<chomp> and C<chop> at the grapheme level.
 It also introduces builtin string methods found in Perl 6 such as C<samecase>.
 
-C<Perl6::Str> is written in pure perl 5.
+C<Perl6::Str> is written in pure Perl 5.
 
 =head1 CAVEATS
 
 C<Perl6::Str> is implemented in terms of a blessed reference to the
 underlying perl 5 string, and all operations are either overloaded operators
-or method calls. That means that the objects loose all their magic once they
+or method calls. That means that the objects lose all their magic once they
 are interpolated into ordinary strings, and that all overloaded operations
 come with a speed penalty.
 
@@ -371,7 +371,7 @@ returns a reversed copy of the string.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2008 by Moritz A. Lenz. This module is free software.
+Copyright (C) 2008, 2011 by Moritz A. Lenz. This module is free software.
 You may use, redistribute and modify it under the same terms as perl itself.
 
 Example code included in this package may be used as if it were Public Domain.
@@ -382,9 +382,11 @@ Moritz Lenz, moritz@faui2k3.org, L<http://perlgeek.de/>, L<http://perl-6.de/>
 
 =head1 DEVELOPMENT
 
-You can obtain the latest development version via subversion:
+You can obtain the latest development version via git:
 
-    svn co https://faui2k3.org/svn/moritz/cpan/Perl6-Str/
+    git clone git://github.com/moritz/Perl6-Str.git
+
+See also: L<https://github.com/moritz/Perl6-Str>.
 
 =cut
 
