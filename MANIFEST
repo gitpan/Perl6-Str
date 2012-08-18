@@ -16,3 +16,4 @@ t/substr.t
 Makefile.PL
 README
 META.yml
+META.json

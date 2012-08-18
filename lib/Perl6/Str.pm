@@ -6,7 +6,7 @@ package Perl6::Str;
 
 use strict;
 use warnings;
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 use Encode qw(encode_utf8);
 use Unicode::Normalize qw();
 
@@ -263,6 +263,9 @@ operations such as C<substr>, C<chomp> and C<chop> at the grapheme level.
 It also introduces builtin string methods found in Perl 6 such as C<samecase>.
 
 C<Perl6::Str> is written in pure Perl 5.
+
+For a description of the Perl 6 C<Str> type, please see
+L<http://doc.perl6.org/type/Str>.
 
 =head1 CAVEATS
 

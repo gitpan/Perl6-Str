@@ -38,6 +38,9 @@ DESCRIPTION
 
     "Perl6::Str" is written in pure Perl 5.
 
+    For a description of the Perl 6 "Str" type, please see
+    <http://doc.perl6.org/type/Str>.
+
 CAVEATS
     "Perl6::Str" is implemented in terms of a blessed reference to the
     underlying perl 5 string, and all operations are either overloaded
